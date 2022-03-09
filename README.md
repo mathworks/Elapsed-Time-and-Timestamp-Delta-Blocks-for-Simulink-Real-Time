@@ -1,5 +1,7 @@
 # Elapsed Time and Timestamp Delta Blocks for Simulink® Real-Time™
 
+[![View Elapsed Time & Timestamp Delta Blocks for Simulink Real-Time on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/107694-elapsed-time-timestamp-delta-blocks-for-simulink-real-time)
+
 Example models of Elapsed Time and Timestamp Delta blocks that run on Simulink® Real-Time™ target computers with QNX. Both blocks have similar functionality to blocks with the same name available prior to R2020b, [Elapsed Time](https://www.mathworks.com/help/releases/R2020a/xpc/io_ref/elapsedtime.html) and [Timestamp Delta](https://www.mathworks.com/help/releases/R2020a/xpc/io_ref/timestampdelta.html). Need R2020b or later. 
 
 ## Note
