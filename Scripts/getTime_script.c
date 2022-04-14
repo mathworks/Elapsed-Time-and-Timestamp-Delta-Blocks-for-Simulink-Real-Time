@@ -18,7 +18,11 @@
  */
 
 int findUnixTime(uint32_t* unixTime32, double inputPort) {
-    struct timespec localUnixTime;
+    struct timespec localUnixTime;   
+    //Print error if attempted to compile on Windows
+    #if defined(_WIN32)
+    #error The Elapsed Time block does not support Windows. Supported on QNX and Linux.
+    #endif   
     // Get system time
     int localUnixTimeStatus = clock_gettime(CLOCK_REALTIME, &localUnixTime);          
     if(localUnixTimeStatus == -1) {
