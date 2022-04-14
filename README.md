@@ -14,8 +14,6 @@ The implemented functionality differs from original functionality due to limitat
 
 ***WARNING:*** The block requires a real-time environment to give provide correct output. The timestamp returned is associated with the target computer time and not the simulation time.
 
-***WARNING:*** The block requires a Linux or QNX environment to compile. It makes system calls supported only on QNX and Linux. If attempting to compile on Windows, the script will produce and error.
-
 The block is implemented as a C function block and as a MATLAB system object. The block is contained within the example models provided. The two implementations are functionally the same, one can be used instead of the other.
 
 ## Timestamp Delta
@@ -27,8 +25,6 @@ The block is implemented as a C function block and as a MATLAB system object. Th
 The two models are configured to run as is. They have been built and run on R2021b. However, any release later than R2020b should work. This is the release in which target computer system was changed to QNX.
 
 Make sure all source and model files are on current path. 
-
-***NOTE:*** If you see "System Not Found" when attempting to run the Simulink model that contains system objects, move the C scripts in the same folder as the model.
 
 ## Reconfiguration
 To reconfigure the models if needed, apply the following settings in Simulink and Simulink Real-Time.
